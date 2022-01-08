@@ -13,6 +13,38 @@
 
     <title>Haris Ahmed Resume/CV</title>
 </head>
+<style>
+    .progress-bar-wrap {
+        width: 80%;
+        /* max-width: 240px
+px
+; */
+        height: 5px;
+        border-radius: 80px;
+        background: #cbcbcb;
+        overflow: hidden;
+        margin-left: 18px;
+    }
+
+    .progress-bar {
+        display: block;
+        height: 100%;
+        background-color: #565656;
+        /* background: linear-gradient(90deg, #ffd33d, #ea4aaa 17%, #b34bff 43%, #01feff 51%, #ffd33d 68%, #ea4aaa 85%, #b34bff); */
+        background-size: 300% 100%;
+        animation: animate-progress-bar 2s linear infinite;
+    }
+
+    @keyframes animate-progress-bar {
+        0% {
+            background-position: 100%;
+        }
+
+        100% {
+            background-position: 0;
+        }
+    }
+</style>
 
 <body>
     <!--========== HEADER ==========-->
@@ -50,19 +82,6 @@
                             <i class="bx bx-receipt nav__icon"></i>Skills
                         </a>
                     </li>
-
-
-                    <!-- <li class="nav__item">
-                        <a href="#certificate" class="nav__link">
-                            <i class="bx bx-award nav__icon"></i>Certificates
-                        </a>
-                    </li> -->
-
-                    <!-- <li class="nav__item">
-                        <a href="#reference" class="nav__link">
-                            <i class="bx bx-link-external nav__icon"></i>References
-                        </a>
-                    </li> -->
                 </ul>
             </div>
 
@@ -83,14 +102,15 @@
                             <img src="assets/img/profile.jpg" alt="" class="home__img">
 
                             <h1 class="home__title">Haris <b>Ahmed</b></h1>
-                            <h3 class="home__profession">Web developer - Graphics Designer - Junior AI Engineer - Artist</h3>
+                            <h3 class="home__profession">Web developer - Graphics Designer - Junior AI Engineer - Artist
+                            </h3>
 
                             <div>
                                 <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">download</a>
                             </div>
 
                             <div class="home__address bd-grid">
-                                <span class="home__information">
+                                <span class="home__information csofw">
                                     <i class="bx bx-map home__icon"></i>North Nazimabad, Karachi, Pakistan
                                 </span>
                                 <span class="home__information">
@@ -111,98 +131,16 @@
 
                 <!--========== PROFILE ==========-->
                 <section class="profile section" id="profile">
-                    <h2 class="section-title">Profile</h2>
+                    <h2 class="section-title">Goal</h2>
 
                     <p class="profile__description" style="text-align: center;">Hello! I’m Haris Ahmed. I am a Creative
                         web developer Extremely
-                        passionate and dedicated to building dynamic, competitive and optimizing the performance of
-                        user-centric, high-speed, high-impact websites, apps and platforms for nationwide, F500 and
-                        global companies with an advantage of revenue growthing. Well-acquainted in markup and numerous
+                        passionate and dedicated to building dynamic, competitive and high-impact websites and apps for
+                        nationwide and
+                        global companies. Well-acquainted in markup and numerous
                         programming languages including HTML5, CSS3 JavaScript, React and Python and master of Graphic
                         Design tools such as Adobe Photoshop, illustrator etc.</p>
                 </section>
-
-                <!-- ========== EDUCATION ==========
-                <section class="education section" id="education">
-                    <h2 class="section-title">Education</h2>
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">MASTER OF DESIGN</h3>
-                                <span class="education__studies">University of Studies</span>
-                                <span class="education__year">Certificate of Completion</span>
-                            </div>
-                        </div>
-
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">MASTER OF DESIGN</h3>
-                                <span class="education__studies">University of Studies</span>
-                                <span class="education__year">Certificate of Completion</span>
-                            </div>
-                        </div>
-
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">MASTER OF DESIGN</h3>
-                                <span class="education__studies">University of Studies</span>
-                                <span class="education__year">Certificate of Completion</span>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-
-
-                <!-- ========== SKILLS  ==========
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
-                            </li>
-                        </ul>
-                    </div>
-                </section> -->
 
                 <!--========== SOCIAL ==========-->
                 <section class="social section">
@@ -298,20 +236,10 @@
                             <div class="experience__data bd-grid">
                                 <h3 class="experience__title">Graphic Designer</h3>
                                 <!-- <span class="experience__company">From 2013 to ----</span> -->
-                                <p class="experience__description">developed creative designs for marketing packages, including print materials, brochures, banners, signs and comic characters artworks.</div>
+                                <p class="experience__description">developed creative designs for marketing packages,
+                                    including print materials, brochures, banners, signs and comic characters artworks.
+                            </div>
                         </div>
-                        <!-- <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">MASTER OF DESIGN</h3>
-                                <span class="experience__company">From 2013 to ----</span>
-                                <p class="experience__description">work in this...................................</p>
-                            </div>
-                        </div> -->
                     </div>
                 </section>
                 <section class="experience section" id="experience">
@@ -327,7 +255,8 @@
                             <div class="experience__data bd-grid">
                                 <h3 class="experience__title">My personal portfolio website</h3>
                                 <!-- <span class="experience__company">From 2013 to ----</span> -->
-                                <a href="https://bit.ly/harisahmedportfolio" target="_blank" style="color: #878585"><span class="education__year">bit.ly/harisahmedportfolio</span></a>
+                                <a href="https://bit.ly/harisahmedportfolio" target="_blank" ><span
+                                        class="education__year">bit.ly/harisahmedportfolio</span></a>
                             </div>
                         </div>
                     </div>
@@ -345,7 +274,8 @@
 
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Karachi University (UBIT)</h3>
-                                <span class="education__studies">Bachelor of Science in Software Engineering BS(SE).</span>
+                                <span class="education__studies">Bachelor of Science in Software Engineering
+                                    BS(SE).</span>
                                 <!-- <a href="https://www.coursera.org/account/accomplishments/verify/U4WAL7PH39EC" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a> -->
                             </div>
                         </div>
@@ -368,21 +298,11 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">London Grammer School. Karachi, Pakistan</h3>
-                                <span class="education__studies">Matriculation in Pre-Engineering</span>
-                                <!-- <a href="https://www.coursera.org/account/accomplishments/verify/U4WAL7PH39EC" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a> -->
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
                                 <h3 class="education__title">Saylani Welfare</h3>
-                                <span class="education__studies">Saylani Mass Training (SMIT) Web & Mobile Application Developer.</span>
-                                <a href="#" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <span class="education__studies">Saylani Mass Training (SMIT) Web & Mobile Application
+                                    Developer.</span>
+                                <a href="#" target="_blank" style="color: #878585"><span
+                                        class="education__year">Certificate of Completion</span></a>
                             </div>
                         </div>
                         <div class="education__content">
@@ -394,11 +314,13 @@
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Johns Hopkins University</h3>
                                 <span class="education__studies">HTML, CSS, and Javascript for Web Developers.</span>
-                                <a href="https://www.coursera.org/account/accomplishments/verify/U4WAL7PH39EC" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/U4WAL7PH39EC"
+                                    target="_blank" style="color: #878585"><span class="education__year">Certificate of
+                                        Completion</span></a>
                             </div>
                         </div>
 
-                        
+
                         <div class="education__content">
                             <div class="education__time">
                                 <span class="education__rounder"></span>
@@ -408,7 +330,9 @@
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Udemy</h3>
                                 <span class="education__studies">Wordpress Website Developer Course</span>
-                                <a href="https://www.udemy.com/certificate/UC-c429b58f-f162-489b-8d99-41098955b5b0/" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <a href="https://www.udemy.com/certificate/UC-c429b58f-f162-489b-8d99-41098955b5b0/"
+                                    target="_blank" style="color: #878585"><span class="education__year">Certificate of
+                                        Completion</span></a>
                             </div>
                         </div>
                         <div class="education__content">
@@ -420,7 +344,9 @@
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Udemy</h3>
                                 <span class="education__studies">Javascript Firebase Bootcamp Course</span>
-                                <a href="https://www.udemy.com/certificate/UC-8a2b2a87-7f66-4bd6-a716-0df850f9bb08/" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <a href="https://www.udemy.com/certificate/UC-8a2b2a87-7f66-4bd6-a716-0df850f9bb08/"
+                                    target="_blank" style="color: #878585"><span class="education__year">Certificate of
+                                        Completion</span></a>
                             </div>
                         </div>
                         <div class="education__content">
@@ -428,11 +354,13 @@
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
-                            
+
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Udemy</h3>
                                 <span class="education__studies">React Course</span>
-                                <a href="https://www.udemy.com/certificate/UC-3b69128c-36c8-4270-936e-fb511a29385f/" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <a href="https://www.udemy.com/certificate/UC-3b69128c-36c8-4270-936e-fb511a29385f/"
+                                    target="_blank" style="color: #878585"><span class="education__year">Certificate of
+                                        Completion</span></a>
                             </div>
                         </div>
                         <div class="education__content">
@@ -440,133 +368,77 @@
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
-        
+
                             <div class="education__data bd-grid">
                                 <h3 class="education__title">Deeplearning.AI</h3>
                                 <span class="education__studies">AI For Everyone.</span>
-                                <a href="https://www.coursera.org/account/accomplishments/verify/2GTVCQKCXZL8" target="_blank" style="color: #878585"><span class="education__year">Certificate of Completion</span></a>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/2GTVCQKCXZL8"
+                                    target="_blank" style="color: #878585"><span class="education__year">Certificate of
+                                        Completion</span></a>
                             </div>
                         </div>
                     </div>
                 </section>
-                
-                
-                <!-- ========== CERTIFICATES ==========
-                <section class="certificate section" id="certificate">
-                    <h2 class="section-title">Certificates</h2>
-
-                    <div class="certificate__container bd-grid">
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Certificate</h3>
-                            <p class="certificate__description">asdasdawwdasdwadawddddddddddddddddd</p>
-                        </div>
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Certificate</h3>
-                            <p class="certificate__description">asdasdawwdasdwadawddddddddddddddddd</p>
-                        </div>
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Certificate</h3>
-                            <p class="certificate__description">asdasdawwdasdwadawddddddddddddddddd</p>
-                        </div>
-                    </div>
-                </section> -->
-
-                <!-- ========== REFERENCES ==========
-                <section class="references section" id="reference">
-                    <h2 class="section-title">References</h2>
-
-                    <div class="references__container bd-grid">
-                        <div class="references__content bd-grid">
-                            <span class="references__subtitle">Sr. Director</span>
-                            <h3 class="references__title">Mr Clay Doe</h3>
-                            <ul class="references__contact">
-                                <li>Phone: +92 (0) 346 3579080</li>
-                                <li>Email: harisahmed@gmail.com</li>
-                            </ul>
-                        </div>
-                        <div class="references__content bd-grid">
-                            <span class="references__subtitle">Sr. Director</span>
-                            <h3 class="references__title">Mr Clay Doe</h3>
-                            <ul class="references__contact">
-                                <li>Phone: +92 (0) 346 3579080</li>
-                                <li>Email: harisahmed@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section> -->
-
 
                 <!--========== SKILLS  ==========-->
                 <section class="skills section" id="skills">
                     <h2 class="section-title">Skills</h2>
                     <div class="skills__content bd-grid">
                         <ul class="skills__data">
-                            <li class="skills__name">
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>HTML / CSS / BOOTSTRAP
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 90%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>Javascript
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 50%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>React
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 65%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>Machine Learning
                             </li>
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 45%;"></span>
+                            </div>
                         </ul>
 
                         <ul class="skills__data">
-                            <li class="skills__name">
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>Wordpress
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 85%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>Adobe Products
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 70%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>Microsoft Office
                             </li>
-                            <li class="skills__name">
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 75%;"></span>
+                            </div>
+                            <li class="skills__name" style="margin-bottom: 10px;">
                                 <span class="skills__circle"></span>SEO
                             </li>
+                            <div class="progress-bar-wrap">
+                                <span class="progress-bar" style="width: 40%;"></span>
+                            </div>
                         </ul>
                     </div>
                 </section>
-
-                <!-- ========== LANGUAGES ==========
-                <section class="languages section">
-                    <h2 class="section-title">Languages</h2>
-
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name">
-                                <span class="languages__circle"></span>English
-                            </li>
-                            <li class="languages__name">
-                                <span class="languages__circle"></span>Urdu
-                            </li>
-                        </ul>
-                    </div>
-                </section> -->
-
-                <!-- ========== INTERESTS ==========
-                <section class="interests section">
-                    <h2 class="section-title">Interests</h2>
-
-                    <div class="interests_container bd-grid">
-                        <div class="interests__content">
-                            <i class="bx bx-headphone interests__icon"></i>
-                            <span class="interests__name">Music</span>
-                        </div>
-                        <div class="interests__content">
-                            <i class="bx bx-headphone interests__icon"></i>
-                            <span class="interests__name">Music</span>
-                        </div>
-                        <div class="interests__content">
-                            <i class="bx bx-headphone interests__icon"></i>
-                            <span class="interests__name">Music</span>
-                        </div>
-                    </div>
-                </section> -->
             </div>
         </div>
     </main>
