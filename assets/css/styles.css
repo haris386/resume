@@ -341,8 +341,8 @@ img {
 }
 
 .home__img {
-  width: 150px;
-  height: 150px;
+  width: 205px;
+  height: 210px;
   border-radius: 50%;
   justify-self: center;
   margin-bottom: var(--mb-1);
