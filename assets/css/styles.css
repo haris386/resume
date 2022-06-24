@@ -5,13 +5,13 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /*========== Variables White Theme ==========*/
   --title-color: #0b0a0a;
-  --text-color: #403a3a;
+  --text-color: black;
   --text-color-light: #707070;
-  --container-color: #fafafa;
-  --container-color-alt: #f0efef;
-  --body-color: #fcfcfc;
+  --container-color: white;
+  --container-color-alt: white;
+  --body-color: #f0efef;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -432,7 +432,7 @@ img {
   display: block;
   width: 16px;
   height: 16px;
-  background-color: var(--text-color-light);
+  background-color: #efe528;
   border-radius: 50%;
   margin-top: 0.25rem;
 }
@@ -441,8 +441,8 @@ img {
 .experience__line {
   display: block;
   width: 2px;
-  height: 110%;
-  background-color: var(--text-color-light);
+  height: 115%;
+  background-color: #efe528;
   transform: translate(7px, 0);
 }
 
@@ -464,8 +464,10 @@ img {
 
 .education__year {
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
-  letter-spacing: 1px;
+  /* color: var(--text-color); */
+  color: #00adff;
+  letter-spacing: 4px;
+  font-weight: bold;
 }
 
 .education__year:hover {
@@ -538,7 +540,7 @@ img {
 
 .interests__icon {
   font-size: 1.5rem;
-  color: var(--text-color-light);
+  color: var(--text-color);
   margin-bottom: 0.25rem;
 }
 
